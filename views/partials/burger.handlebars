@@ -1,0 +1,20 @@
+<div>
+    <div class="card corners-rounded has-margins-sm">
+        <div class="card-content">
+            <div class="level">
+                <div class="is-level-item">
+                    <img class="image is-48x48" src="/assets/img/burger.png" alt="">
+                </div>
+                <p class="level-item">{{burger_name}}</p>
+                <div class="level-item">
+                    {{#unless devoured}}
+                        {{> devour-button}}
+                    {{/unless}}
+                    </div>
+                    <div>
+                        <button class="button level-item is-danger">Delete</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>

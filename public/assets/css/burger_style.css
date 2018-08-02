@@ -1,0 +1,16 @@
+html {
+    background-image: url('../img/OT8PER0.jpg');
+    background-size: 150%;
+}
+
+h1 {
+    font-family: 'indie flower';
+}
+
+.corners-rounded{
+    border-radius: 5px;
+}
+
+.has-margins-sm {
+    margin: 10px;
+}
