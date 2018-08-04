@@ -1,5 +1,4 @@
-USE burgers_db;
-
+USE `qioxm4gnavuxygvj`;
 INSERT INTO burgers (burger_name)
 VALUES 
     ('Bacon Cheese Burger'),
@@ -7,5 +6,3 @@ VALUES
     ('Vegan Cheeseburger'),
     ('Meat and Buns');
     
-USE burgers_db;
-SELECT * FROM burgers;

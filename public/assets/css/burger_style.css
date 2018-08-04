@@ -1,6 +1,8 @@
-html {
+
+html{
     background-image: url('../img/OT8PER0.jpg');
     background-size: 150%;
+    background-attachment: fixed;
 }
 
 h1, h2, h3, button{
