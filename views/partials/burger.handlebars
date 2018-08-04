@@ -1,18 +1,18 @@
 <div>
-    <div class="card corners-rounded has-margins-sm">
-        <div class="card-content">
+    <div class="corners-rounded outlined has-margins-sm">
+        <div>
             <div class="level">
-                <div class="is-level-item">
+                <div class="level-item">
                     <img class="image is-48x48" src="/assets/img/burger.png" alt="">
                 </div>
-                <p class="level-item">{{burger_name}}</p>
+                <h4 class="burger-text has-text-white level-item">{{burger_name}}</h4>
                 <div class="level-item">
                     {{#unless devoured}}
-                        {{> devour-button}}
+                        <button class="devour button is-outlined is-primary" data-id={{id}} data-devoured={{devoured}}>Devour!</button>
                     {{/unless}}
                     </div>
                     <div>
-                        <button class="button level-item is-danger">Delete</button>
+                        <button class="button level-item is-outlined is-danger deleteBtn" data-id={{id}}>Delete</button>
                     </div>
             </div>
         </div>
