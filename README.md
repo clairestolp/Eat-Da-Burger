@@ -1,5 +1,7 @@
 # eat-da-burger
 
+![Demo](https://github.com/clairestolp/eat-da-burger/blob/master/demo.gif?raw=true)
+
 ### Overview
 Burger logger that logs a burger that has been served/eaten. The user can add a new burger, move a burger from served to devoured, or deleted from the list.
 
