@@ -2,6 +2,8 @@
 
 ![Demo](https://github.com/clairestolp/eat-da-burger/blob/master/demo.gif?raw=true)
 
+[Click this link to view live app](https://radiant-ridge-35937.herokuapp.com/ "Eat Da Burger")
+
 ### Overview
 Burger logger that logs a burger that has been served/eaten. The user can add a new burger, move a burger from served to devoured, or deleted from the list.
 
